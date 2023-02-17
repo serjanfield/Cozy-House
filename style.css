@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+    color: white;
+    padding-top: 60px;
+}
+.menu   {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu h2{
+    color:  #F1CDB3;
+    font-size: 32px;
+}
+.menu p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.about{
+    color: #fafafa;
+}
+li{
+    margin: 20px 35px;
+    font-size: 15px;
+    color: #CDCDCD;
+}
+.line{
+    background-color: white;
+    width: fill(114px);
+    height: 2px;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.image{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.offer  {
+    margin: 170px 0 243px 0;
+}
+h1{
+    font-size: 44px;
+    line-height: 130%;
+}
+.offer p{
+    color: #CDCDCD;
+    line-height: 160%;
+    margin: 40px 0;
+}
+button{
+    padding: 15px 45px;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    border-color: #F1CDB3;
+}
+.wrapper2{
+    width: 850px;
+    margin: 0 auto;
+}
+.content    {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 100px 0;
+}
+.cozy-house{
+    width: 430px;
+}
+h2{
+    color: #545454;
+    font-size: 35px;
+    line-height: 130%;
+    font-weight: 400;
+}
+.content p{
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 24px;
+    color: #4C4C4C;
+}
+
+.friends    {
+    background-color: #F6F6F6;
+    padding: 80px 0 100px 0;
+    text-align: center;
+}
+.friends h2{
+    margin: 0 auto;
+}
+.dogs{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+.name{
+    background-color: #FAFAFA;
+    border-radius: 9px 9px 0 0;
+}
+.dogs div{
+    text-align: center;
+}
+.dogs p{
+    margin: 30px 0;
+    color: #545454;
+}
+.dogs button{
+    background-color: white;
+    margin: 30px 0;
+    color: #292929;
+}
+.active {
+    margin: 0 90px;
+}
+
+.help   {
+    text-align: center;
+    padding: 80px 0 100px 0;
+}
+.st{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.nd{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+}
+.help p{
+    color: #545454;
+    margin-top: 30px;
+}
+
+.donation{
+    background-color: #F6F6F6;
+    padding: 80px 0 100px 0;
+}
+.final{
+    display: flex;
+}
+.bank   {
+    margin: 20px 0;
+    font-size: 15px;
+    color: #545454;
+}
+.donation button{
+    border-radius: 9px;
+    padding: 10px 15px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+.legal  {
+    font-style: italic;
+    color: #B2B2B2;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.donation img{
+    margin: 0 30px 0 -30px;
+}
+
+.footer{
+    background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%);
+    display: flex;
+    padding-top: 60px;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    line-height: 130%;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+}
+.number p{
+    color: #F1CDB3;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    margin: 45px 0;
+}
+
+
+
+@media (min-width:768px) and (max-width:1199px){
+    .wrapper{
+        width: 768px;
+        margin: 0 auto;
+    }
+    .header{
+        padding: 30px 30px 0 30px;
+    }
+    li{
+        margin: 15px 35px 15px 0;
+    }
+    
+    .image{
+        flex-direction: column;
+        margin-top: 0;
+        text-align: center;
+    }
+    .offer  {
+        margin: 60px auto;
+        text-align: center;
+    }
+    h1{
+        text-align: left;
+    }
+    .offer p{
+        text-align: left;
+    }
+    .puppy{
+        width: 570px;
+        height: 590px;
+    }
+
+    .wrapper2{
+        width: 580px;
+    }
+    .content    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .cozy-house{ 
+        margin: 0 auto;
+        text-align: left;
+    }
+    
+
+    .friends h2{
+        margin: 0 auto;
+    }
+    .woody{
+        display: none;
+    }
+    .active {
+        margin: 0 0 0 90px;
+    }
+    
+
+    
+    .donation{
+        text-align: center;
+    }
+    .final{
+        flex-direction: column;
+    }
+    .make{
+        width: 380px;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    
+    .number{
+        flex-direction: column;
+    }
+    .for{
+        display: inline-block;
+    }
+    h3{
+        line-height: 130%;
+        font-size: 35px;
+        font-weight: 400;
+        color: white;
+    }
+    .number p{
+        color: #F1CDB3;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        margin: 45px 0;
+    }
+}
+
+
+@media (min-width:320px) and (max-width:767px){
+    .wrapper{
+        width: 300px;
+    }
+    .header{
+        padding-top: 30px;
+    }
+    .menu   {
+        justify-content: left;
+    }
+    ul{
+        display: none;
+    }
+    
+    .image{
+        flex-direction: column;
+    }
+    .offer  {
+        margin: 0;
+        text-align: center;
+    }
+    h1{
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 130%;
+    }
+
+    .offer p br{
+        display: none;
+    }
+    .offer p{
+        color: #CDCDCD;
+        line-height: 160%;
+        margin: 40px 0;
+        font-size: 17px;
+    }
+    .puppy{
+        width: 260px;
+        height: 270px;
+    }
+
+
+    .wrapper2{
+        width: 270px;
+    }
+    .content    {
+        flex-direction: column;
+        padding: 42px 0;
+    }
+    .png{
+        width: 260px;
+        height: 353px;
+    }
+    .cozy-house{
+        width: 270px;
+        text-align: center;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .content p{
+        font-size: 17px;
+        text-align: justify;
+    }
+    
+    .friends    {
+        padding: 42px 0;
+        text-align: center;
+    }
+    .dogs{
+        display: flex;
+        justify-content: center;
+        margin: 60px 0;
+    }
+    .jennifer{
+        display: none;
+    }
+    .woody{
+        display: none;
+    }
+    .rest{
+        width: 260px;
+    }
+    
+    .help   {
+        text-align: center;
+        padding: 42px 0;
+    }
+    
+    .donation{
+        padding: 42px 0;
+    }
+    .final{
+        flex-direction: column;
+        text-align: center;
+    }
+    .donation button{
+        width: 281px;
+        margin-left: -5px;
+    }
+    .legal  {
+        text-align: justify;
+    }
+    .donation img{
+        margin: 0;
+        width: 260px;
+        height: 135px;
+    }
+    
+    .footer{
+        padding-top: 30px;
+    }
+    .number{
+        flex-direction: column;
+        text-align: center;
+    }
+    .for br{
+        display: none;
+    }
+    .png3{
+        width: 260px;
+        height: 270px;
+    }
+}
